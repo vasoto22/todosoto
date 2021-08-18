@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "todosoto.Functions": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\VASOTO\\AppData\\Local\\AzureFunctionsTools\\Releases\\3.23.4\\cli_x64\\func.exe",
+      "commandLineArgs": "host start"
+    }
+  }
+}
