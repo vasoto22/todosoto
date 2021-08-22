@@ -33,7 +33,7 @@ namespace todosoto.Test.Helpers
             return new DefaultHttpRequest(new DefaultHttpContext())
             {
                 Body = GenerateStreamFromString(request),
-                Path = $"{todoId}"
+                Path = $"/{todoId}"
             };
         }
 
@@ -41,7 +41,7 @@ namespace todosoto.Test.Helpers
         {
             return new DefaultHttpRequest(new DefaultHttpContext())
             {
-                Path = $"{todoId}"
+                Path = $"/{todoId}"
             };
         }
 
